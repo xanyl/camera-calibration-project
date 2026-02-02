@@ -9,7 +9,7 @@ def main():
     parser.add_argument("--images", required=True, help="Glob path to calibration images, e.g. data/calib/*.jpg")
     parser.add_argument("--cols", type=int, default=9, help="Number of inner corners per row (columns)")
     parser.add_argument("--rows", type=int, default=6, help="Number of inner corners per column (rows)")
-    parser.add_argument("--square_size", type=float, default=0.025, help="Square size in meters (e.g. 0.025 = 25mm)")
+    parser.add_argument("--square_size", type=float, default=0.037, help="Square size in meters (e.g. 0.025 = 25mm)")
     parser.add_argument("--out", default="outputs/calibration.npz", help="Output calibration file")
     parser.add_argument("--show", action="store_true", help="Show detection window")
     args = parser.parse_args()
