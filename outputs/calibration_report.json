@@ -1,0 +1,108 @@
+{
+  "images_glob": "data/calib/*.jpg",
+  "num_images_total": 20,
+  "num_images_used": 20,
+  "pattern_inner_corners": {
+    "cols": 8,
+    "rows": 4
+  },
+  "square_size_m": 0.037,
+  "image_size_px": {
+    "width": 3024,
+    "height": 4032
+  },
+  "opencv_rms_reprojection_error_px": 0.718279258129443,
+  "mean_reprojection_error_px": 0.6278562530875206,
+  "per_view_mean_reprojection_error_px": [
+    0.6706251502037048,
+    0.6027877330780029,
+    0.8263459205627441,
+    0.6545541286468506,
+    0.5573513507843018,
+    0.5924438238143921,
+    0.4360164701938629,
+    0.7732445001602173,
+    0.580336332321167,
+    0.34518879652023315,
+    0.5528788566589355,
+    0.5386005640029907,
+    0.5006067752838135,
+    0.5812251567840576,
+    0.6328634023666382,
+    0.6176894307136536,
+    0.8432953357696533,
+    0.7661923170089722,
+    0.6593550443649292,
+    0.8255239725112915
+  ],
+  "camera_matrix_K": [
+    [
+      3068.123532952531,
+      0.0,
+      1506.7970325740869
+    ],
+    [
+      0.0,
+      3068.7560601016844,
+      2014.5542434135566
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "distortion_coeffs": [
+    0.20052261326330859,
+    -1.1297468315661308,
+    0.0014029737965870332,
+    0.001683199335259617,
+    2.160568580010569
+  ],
+  "new_camera_matrix_newK": [
+    [
+      3614.06794736245,
+      0.0,
+      1511.5
+    ],
+    [
+      0.0,
+      3614.8130269105973,
+      2015.5
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "roi": [
+    0,
+    0,
+    3024,
+    4031
+  ],
+  "used_files": [
+    "data/calib\\IMG_3901.JPG",
+    "data/calib\\IMG_3902.JPG",
+    "data/calib\\IMG_3903.JPG",
+    "data/calib\\IMG_3904.JPG",
+    "data/calib\\IMG_3905.JPG",
+    "data/calib\\IMG_3906.JPG",
+    "data/calib\\IMG_3907.JPG",
+    "data/calib\\IMG_3908.JPG",
+    "data/calib\\IMG_3909.JPG",
+    "data/calib\\IMG_3910.JPG",
+    "data/calib\\IMG_3911.JPG",
+    "data/calib\\IMG_3912.JPG",
+    "data/calib\\IMG_3913.JPG",
+    "data/calib\\IMG_3914.JPG",
+    "data/calib\\IMG_3915.JPG",
+    "data/calib\\IMG_3917.JPG",
+    "data/calib\\IMG_3918.JPG",
+    "data/calib\\IMG_3919.JPG",
+    "data/calib\\IMG_3920.JPG",
+    "data/calib\\IMG_3921.JPG"
+  ],
+  "notes": "Take 15\u201325 smartphone images with varied angles/positions for best results."
+}
